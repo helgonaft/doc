@@ -46,6 +46,11 @@ header.masthead h1 {
   font-size: 3rem;
 }
 
+header.masthead h2 {
+  line-height: 40px;
+  font-size: 2rem;
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 5rem;
@@ -53,6 +58,10 @@ header.masthead h1 {
   }
   header.masthead h1 {
     font-size: 4rem;
+  }
+  header.masthead h2 {
+    line-height: 70px;
+    font-size: 3rem;
   }
   header.masthead--big {
     padding-top: 10rem;
@@ -70,9 +79,16 @@ header.masthead h1 {
   background-position: center;
 }
 
+.showcase .cloud {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
+  }
+  .showcase .cloud {
+    width: 40%;
   }
 }
 
