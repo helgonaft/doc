@@ -20,15 +20,19 @@ header.masthead {
     left: 0;
     opacity: 0.55;
   }
+
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
+
   @media (min-width: 768px) {
     padding-top: 5rem;
     padding-bottom: 5rem;
+
     h1 {
-      font-size: 3rem;
+      font-size: 4rem;
     }
+
     &--big {
       padding-top: 10rem;
       padding-bottom: 10rem;

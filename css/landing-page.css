@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -43,7 +43,7 @@ header.masthead .overlay {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -52,7 +52,7 @@ header.masthead h1 {
     padding-bottom: 5rem;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   header.masthead--big {
     padding-top: 10rem;
