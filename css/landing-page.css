@@ -172,6 +172,18 @@ footer.footer {
   padding-bottom: 4rem;
 }
 
+nav .navbar-brand {
+  font-size: 30px;
+}
+
+nav .navbar-item {
+  font-size: 25px;
+}
+
+nav .navbar-item:hover {
+  text-decoration: none;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

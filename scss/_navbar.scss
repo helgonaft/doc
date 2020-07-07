@@ -1,0 +1,15 @@
+nav {
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .navbar-item {
+        font-size: 25px;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+}
