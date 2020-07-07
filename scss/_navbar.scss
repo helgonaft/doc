@@ -2,6 +2,10 @@ nav {
 
     .navbar-brand {
         font-size: 30px;
+
+        @media (max-width:768px) {
+            display: none;
+        }
     }
 
     .navbar-item {

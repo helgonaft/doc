@@ -192,6 +192,12 @@ nav .navbar-brand {
   font-size: 30px;
 }
 
+@media (max-width: 768px) {
+  nav .navbar-brand {
+    display: none;
+  }
+}
+
 nav .navbar-item {
   font-size: 25px;
 }
