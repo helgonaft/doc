@@ -10,6 +10,7 @@
     <meta name="author" content="" />
 
     <title>DocCloud</title>
+    <link rel="icon" type="image/png" href="img/logo.ico" />
 
     <!-- Bootstrap core CSS -->
     <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
@@ -41,10 +42,10 @@
     >
       <div class="d-flex flex-grow-1">
         <span class="w-100 d-lg-none d-block"></span>
-        <a class="navbar-brand text-primary" href="#">
-          DocCloud
+        <a class="navbar-brand text-primary d-flex" href="#">
+          <img src="img/logo.png" class="logo" alt="DocCLoud" />
         </a>
-        <div class="w-100 text-right">
+        <div class="w-100 text-right d-flex justify-content-end">
           <button
             class="navbar-toggler"
             type="button"
@@ -85,6 +86,26 @@
         </div>
       </div>
     </header>
+
+    <!-- Mobile examples section -->
+    <section class="showcase py-3">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-12 text-center">
+            <h3 class="text-primary my-4">
+              We want to digitalize important documents<br />
+              and make them available anytime anywhere
+            </h3>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 m-auto">
+            <img src="img/screenshots-mobile.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- What we do -->
     <section class="showcase">
       <div class="container-fluid p-0" id="WhatWeDo">
@@ -239,11 +260,6 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <!-- <img
-                class="img-fluid rounded-circle mb-3"
-                src="img/Sebastian.png"
-                alt="Sebastian Cler"
-              /> -->
               <div class="portrait portrait--sc"></div>
 
               <h5>Sebastian Cler</h5>
@@ -265,11 +281,6 @@
           </div>
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <!-- <img
-                class="img-fluid rounded-circle mb-3"
-                src="img/Peter.png"
-                alt="Peter-Daniel Ketelsen"
-              /> -->
               <div class="portrait portrait--pdk"></div>
 
               <h5>Peter-Daniel Ketelsen</h5>
@@ -290,11 +301,6 @@
           </div>
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <!-- <img
-                class="img-fluid rounded-circle mb-3"
-                src="img/dg.png"
-                alt="Dr. Dominik Gerlicher"
-              /> -->
               <div class="portrait portrait--dg"></div>
               <h5>Dr. Dominik Gerlicher</h5>
               <p class="font-weight-light mb-0 person">
@@ -400,13 +406,16 @@
           </div>
         </div>
       </div>
+      <button onclick="back()" id="backToTop" title="Go to top">
+        <i class="icon-arrow-up"></i>
+      </button>
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
       $(document).ready(function () {
+        var mybutton = document.getElementById("backToTop");
         $(".navbar-item").click(function (e) {
           e.preventDefault();
           $("body,html").animate(
@@ -415,6 +424,27 @@
             },
             500
           );
+        });
+
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        $("#backToTop").click(function () {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
         });
       });
     </script>

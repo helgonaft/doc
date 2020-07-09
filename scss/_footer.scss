@@ -2,3 +2,25 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 30px;
+  width: 55px;
+  height: 55px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #adb5bd61;
+  color: $blue;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+
+  @media (min-width: 786px) {
+    bottom: 4rem;
+  }
+}

@@ -1,19 +1,20 @@
 nav {
+  .navbar-brand {
+    font-size: 30px;
 
-    .navbar-brand {
-        font-size: 30px;
-
-        @media (max-width:768px) {
-            display: none;
-        }
+    @media (max-width: 768px) {
+      display: none;
     }
+  }
 
-    .navbar-item {
-        font-size: 25px;
+  .navbar-item {
+    font-size: 22px;
 
-        &:hover {
-            text-decoration: none;
-        }
+    &:hover {
+      text-decoration: none;
     }
-
+  }
+  .logo {
+    width: 50px;
+  }
 }
