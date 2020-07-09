@@ -406,7 +406,7 @@
           </div>
         </div>
       </div>
-      <button onclick="back()" id="backToTop" title="Go to top">
+      <button id="backToTop" title="Go to top">
         <i class="icon-arrow-up"></i>
       </button>
     </footer>
@@ -443,8 +443,12 @@
 
         // When the user clicks on the button, scroll to the top of the document
         $("#backToTop").click(function () {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
+          $("body,html").animate(
+            {
+              scrollTop: 0,
+            },
+            300
+          );
         });
       });
     </script>
