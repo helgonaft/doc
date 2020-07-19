@@ -192,9 +192,9 @@ footer.footer {
   display: none;
   position: fixed;
   bottom: 2rem;
-  right: 30px;
-  width: 55px;
-  height: 55px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
   z-index: 99;
   font-size: 18px;
   border: none;
@@ -202,13 +202,17 @@ footer.footer {
   background-color: #adb5bd61;
   color: #525e84;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 50%;
+}
+
+#backToTop:hover {
+  background-color: #adb5bd;
 }
 
 @media (min-width: 786px) {
   #backToTop {
-    bottom: 4rem;
+    bottom: 3.5rem;
   }
 }
 
@@ -232,6 +236,7 @@ nav .navbar-item:hover {
 
 nav .logo {
   width: 50px;
+  max-height: 50px;
 }
 
 /*!
