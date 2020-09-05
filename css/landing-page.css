@@ -32,6 +32,11 @@ h6 {
   width: 80%;
 }
 
+.fitText {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
