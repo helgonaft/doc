@@ -18,6 +18,20 @@ h6 {
   font-weight: 700;
 }
 
+.downloadLink {
+  width: 300px;
+}
+
+.downloadLink img {
+  width: 100%;
+  height: auto;
+}
+
+.downloadLink.apple img {
+  margin: 6%;
+  width: 80%;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;

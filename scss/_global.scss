@@ -11,3 +11,19 @@ h6 {
   @include body-font;
   font-weight: 700;
 }
+
+.downloadLink {
+  width: 300px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  &.apple {
+    img {
+      margin: 6%;
+      width: 80%;
+    }
+  }
+}
