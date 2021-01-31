@@ -1,230 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>DocCloud</title>
+    <link rel="icon" type="image/png" href="img/logo.ico" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet" />
+  </head>
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light static-top py-3 px-5"
+    >
+      <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"></span>
+        <a class="navbar-brand text-primary d-flex m-0" href="#">
+          <img src="img/logo.png" class="logo" alt="DocCLoud" />
+        </a>
+        <div class="w-100 text-right d-flex justify-content-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#myNavbar7"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+      </div>
+      <div
+        class="collapse navbar-collapse flex-grow-1 text-right"
+        id="myNavbar7"
+      >
+        <div class="navbar-nav ml-auto flex-nowrap">
+          <a class="navbar-item text-center mx-5" href="#WhatWeDo"
+            >What we do</a
+          >
+          <a class="navbar-item text-center mx-5" href="#HowWeDo">How we do</a>
+          <a class="navbar-item text-center mx-5" href="#WhoWeAre"
+            >Who we are</a
+          >
+          <a class="navbar-item text-center mx-5" href="#HowToGet"
+            >How to get</a
+          >
+        </div>
+      </div>
+    </nav>
+    <header class="masthead masthead--big text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="text-center">DocCloud</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile examples section -->
+    <section class="showcase py-3">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-12 text-center">
+            <h3 class="text-primary my-4">
+              We want to digitalize important documents<br />
+              and make them available anytime anywhere
+            </h3>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 m-auto">
+            <img src="img/screenshots-mobile.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we do -->
+    <section class="showcase">
+      <div class="container-fluid p-0" id="WhatWeDo">
+        <div class="row no-gutters bg-primary">
+          <div class="col-lg-5 order-lg-1 text-white d-flex">
+            <div class="cloud m-auto">
+              <img src="img/cloudStructure.png" class="m-auto img-fluid" />
+            </div>
+          </div>
+          <div
+            class="col-lg-7 order-lg-2 mt-2 showcase-text p-5 text-white d-flex flex-column justify-content-center"
+          >
+            <h2>What we do</h2>
+            <p class="lead mb-0">
+              DocCloud is a German document management application that will
+              help you get organized. We provide an intuitive structure to store
+              your most important documents. ​ Most contracts are signed and
+              stored within a cabinet and forgotten right away. When they are
+              needed, you need to be patient and structured. This is an issue
+              when you need a contract or a receipt right away. ​ DocCloud has
+              you covered here. We digitalize your documents and store them on
+              your phone so that you will always have them at your fingertips. ​
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="">
+              DocCloud is focused on simplicity.<br />
+              We categorize your file cabinet into<br />
+              four main areas and the rest:
+            </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center" id="HowWeDo">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
               </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+              <h3>Contracts</h3>
+              <!-- <p class="lead mb-0">
+              Some test description text
+            </p> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-doc m-auto text-primary"></i>
+              </div>
+              <h3>Receipts</h3>
+              <!-- <p class="lead mb-0">
+              Some test description text
+            </p> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-wallet m-auto text-primary"></i>
+              </div>
+              <h3>Bank</h3>
+              <!-- <p class="lead mb-0">
+              Some test description text
+            </p> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-note m-auto text-primary"></i>
+              </div>
+              <h3>Insurance</h3>
+              <!-- <p class="lead mb-0">
+              Some test description text
+            </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How we structure -->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters bg-primary">
+          <div class="col-lg-6 my-auto showcase-text text-white p-5">
+            <h2>How we structure</h2>
+            <p class="lead">
+              These four categories are the main areas where we have to store
+              the most paperwork. We store our paperwork usually in a cabinet in
+              our office, at home or in an external storage space. Normally
+              those documents are in paper and use a lot of space. By the time,
+              the document quality vanishes like with a printed receipt that
+              can’t be read once it gets too much sun, too much air or just too
+              much time. ​
+            </p>
+          </div>
+
+          <div
+            class="col-lg-6 text-white showcase-img"
+            style="background-image: url('img/archive-2.jpg')"
+          ></div>
+        </div>
+        <div class="row no-gutters bg-primary">
+          <div class="col-lg-6 order-lg-2 my-auto showcase-text p-5 text-white">
+            <p class="lead">
+              With DocCloud, you can scan and store these documents in a preset
+              structure and put tags onto those documents. This saves a
+              significant amount of time when you look for a special document
+              when you need it and where you need it. It also helps in giving a
+              structure to standardized documents like i.e. bank account
+              statements. The bank only saves these documents for about two
+              years and deletes them. You can either save the printed version or
+              hope that you find the scan again when you need it. DocCloud
+              stores those documents and helps you find it when you need it
+              right away. ​
+            </p>
+            <p class="lead mb-0">
+              A structured overview also helps you when you want to have an
+              overview about your insurances and check where the blank spots are
+              or what is covered in an overlap.<br />​Structure and order helps
+              to save money and raise security​
+            </p>
+          </div>
+
+          <div
+            class="col-lg-6 order-lg-1 text-white showcase-img"
+            style="background-image: url('img/bg-showcase-1.jpg')"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light" id="WhoWeAre">
+      <div class="container">
+        <h1 class="mb-5 text-primary">Who we are</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <div class="portrait portrait--sc"></div>
+
+              <h5>Sebastian Cler</h5>
+              <p class="font-weight-light mb-0 person">
+                Core Team<br />
+                Founding Partner and CEO<br />
+                Head of Strategy and Organization, Marketing, Finance, Services,
+                HR
+              </p>
+              <div class="bg-secondary p-2 theWhy">
+                <h5 class="text-primary my-2">The Why?</h5>
+                <p>
+                  As former management consultant, Sebastian wants to provide
+                  the technical expertise of large corporations to private users
+                  and make life a little easier with less paperwork.
+                </p>
               </div>
             </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </header>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <div class="portrait portrait--pdk"></div>
 
-  <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-screen-desktop m-auto text-primary"></i>
-            </div>
-            <h3>Fully Responsive</h3>
-            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
-            </div>
-            <h3>Bootstrap 4 Ready</h3>
-            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
-            </div>
-            <h3>Easy to Use</h3>
-            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Image Showcases -->
-  <section class="showcase">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials text-center bg-light">
-    <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+              <h5>Peter-Daniel Ketelsen</h5>
+              <p class="font-weight-light mb-0 person">
+                Core Team<br />
+                Founding Partner<br />
+                Head of Product Development
+              </p>
+              <div class="bg-secondary p-2 theWhy">
+                <h5 class="text-primary my-2">The Why?</h5>
+                <p>
+                  Daniel focusses on complex solutions made simpel. He finds
+                  structure in chaos and wants to cutour clients complexity with
+                  DocCloud.
+                </p>
               </div>
             </div>
-          </form>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <div class="portrait portrait--dg"></div>
+              <h5>Dr. Dominik Gerlicher</h5>
+              <p class="font-weight-light mb-0 person">
+                Core Team<br />
+                Founding Partner<br />
+                Legal Advisor
+              </p>
+              <div class="bg-secondary p-2 theWhy">
+                <h5 class="text-primary my-2">The Why?</h5>
+                <p>
+                  Dominik wants to help private clients to have a reliable
+                  document management system helping them to see what‘s relevant
+                  without any fuzz.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="#">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2020. All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center" id="HowToGet">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">
+              Ready to get started? Download the Application now!
+            </h2>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-lg-6 mx-auto my-1">
+                  <a
+                    role="button"
+                    href="https://apps.apple.com/us/app/id1529786499"
+                    target="_blank"
+                    class="downloadLink apple"
+                  >
+                    <img src="img/Download_on_the_App_Store_Badge.svg" />
+                  </a>
+                </div>
+                <div class="col-12 col-lg-6 mx-auto my-1">
+                  <a
+                    class="downloadLink"
+                    role="button"
+                    target="_blank"
+                    href="https://play.google.com/store/apps/details?id=io.doccloud.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                    ><img
+                      alt="Get it on Google Play"
+                      src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                  /></a>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="impressum.html">Impressum</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="data-protection.html">Data Protection</a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">
+              &copy; DocCloud 2020. All Rights Reserved.
+            </p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a
+                  href="https://www.facebook.com/DocCloud-UG-110888370583057"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a
+                  href="https://www.linkedin.com/company/doccloud-ug/?viewAsMember=true"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <button id="backToTop" title="Go to top">
+        <i class="icon-arrow-up"></i>
+      </button>
+    </footer>
 
-</body>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var mybutton = document.getElementById("backToTop");
+        $(".navbar-item").click(function (e) {
+          e.preventDefault();
+          $("body,html").animate(
+            {
+              scrollTop: $($(this).attr("href")).offset().top,
+            },
+            500
+          );
+        });
 
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        $("#backToTop").click(function () {
+          $("body,html").animate(
+            {
+              scrollTop: 0,
+            },
+            300
+          );
+        });
+      });
+    </script>
+  </body>
 </html>
